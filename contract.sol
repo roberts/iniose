@@ -1,6 +1,12 @@
 /**
  *
  *
+   InIOSE AI
+   $InEOSE on BASE
+   https://InIOSE.com
+   https://x.com/InIOSEAI
+   https://t.me/InIOSEAIPortal
+   
    Contract features:
    100,000,000 tokens
    3% buy tax in ETH sent to community, marketing & developer
@@ -1145,7 +1151,7 @@ contract iniose is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string exchangeLink = "https://app.uniswap.or/swap";
-    string websiteLink = "https://DrewRoberts.com";
+    string websiteLink = "https://InIOSE.com";
 
     address public communityWallet;
     address public marketingWallet;
