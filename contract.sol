@@ -1150,8 +1150,8 @@ contract iniose is ERC20, Ownable {
     address public constant deadAddress =
         address(0x000000000000000000000000000000000000dEaD);
 
-    string exchangeLink = "https://app.uniswap.or/swap";
-    string websiteLink = "https://InIOSE.com";
+    string public exchangeLink = "https://app.uniswap.or/swap";
+    string public websiteLink = "https://InIOSE.com";
 
     address public communityWallet;
     address public marketingWallet;
