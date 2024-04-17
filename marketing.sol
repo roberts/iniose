@@ -127,7 +127,7 @@ contract Marketing is Ownable {
     address payable public CutieTeam =
         payable(0xC6aa2f0FF6b8563EA418ec2558890D6027413699);
     address payable public HustlerTeam =
-        payable(0xBc46A0F68795c90ca2A77168169b806ca440Eb26);
+        payable(0xC84c8B7A1F5924395CcCB190D9EC81eE17982EDC);
 
     constructor() {}
 
