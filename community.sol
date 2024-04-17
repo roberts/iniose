@@ -46,7 +46,7 @@ abstract contract Context {
 abstract contract Ownable is Context {
     address private _owner;
 
-    string websiteLink = "https://InIOSE.com";
+    string public websiteLink = "https://InIOSE.com";
 
     /**
      * @dev Updates the websiteLink string with a new value
