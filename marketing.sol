@@ -112,7 +112,7 @@ abstract contract Ownable is Context {
     }
 }
 
-contract JohnnyReb is Ownable {
+contract Marketing is Ownable {
     address payable public GorillaTeam =
         payable(0x90923AD852f67682D9CcD437196a619F7BdF6Ae7);
     address payable public CutieTeam =
