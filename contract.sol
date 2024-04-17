@@ -1233,7 +1233,7 @@ contract iniose is ERC20, Ownable {
             developerLopsidedSellTax;
 
         communityWallet = address(0xF659b39772Af07be28F18d4DDef31508dbDFfB30); // Community Funds
-        marketingWallet = address(0x66d78e9bf632aac1de394a2aacf29f7a7acd931d); // Marketing Funds
+        marketingWallet = address(0x66D78e9bf632AAc1De394a2Aacf29f7a7AcD931d); // Marketing Funds
         developerWallet = address(0xEB6601AB897119aa3e5fDF16ac967CCF959f364d); // Developer Funds
 
         _mint(address(this), totalSupply);
