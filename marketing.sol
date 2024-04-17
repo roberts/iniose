@@ -1,7 +1,7 @@
 /**
  *
  *
-   InIOSE AI Community Wallet Splitter Contract
+   InIOSE AI Marketing Wallet Splitter Contract
    https://InIOSE.com
    https://x.com/InIOSEAI
    https://t.me/InIOSEAIPortal
