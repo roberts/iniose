@@ -8,7 +8,7 @@
    https://t.me/InIOSEAIPortal
    
    Contract features:
-   100,000,000 tokens
+   1,000,000,000 tokens
    3% buy tax in ETH sent to community, marketing & developer
    16% sell tax in ETH sent to community, marketing, & developer
    Option to reduce taxes to 3/3
@@ -1205,13 +1205,13 @@ contract iniose is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("InIOSE AI", "TnIOSE") {
+    constructor() ERC20("InIOSE AI", "InIOSE") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
         _approve(address(this), address(uniswapV2Router), type(uint256).max);
 
-        uint256 totalSupply = 100_000_000 ether;
+        uint256 totalSupply = 1_000_000_000 ether;
 
         swapTokenAmount = totalSupply / 2000; // 0.05% of total supply (50,000 tokens)
 
