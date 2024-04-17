@@ -123,7 +123,7 @@ abstract contract Ownable is Context {
 
 contract Marketing is Ownable {
     address payable public GorillaTeam =
-        payable(0x90923AD852f67682D9CcD437196a619F7BdF6Ae7);
+        payable(0x907D8B91a49765A4A7d054e1878D8B063e685fdB);
     address payable public CutieTeam =
         payable(0xC6aa2f0FF6b8563EA418ec2558890D6027413699);
     address payable public HustlerTeam =
