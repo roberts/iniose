@@ -113,17 +113,17 @@ abstract contract Ownable is Context {
 }
 
 contract JohnnyReb is Ownable {
-    address payable public SolidityWizard =
+    address payable public GorillaTeam =
         payable(0x90923AD852f67682D9CcD437196a619F7BdF6Ae7);
-    address payable public DrewRoberts =
+    address payable public CutieTeam =
         payable(0xC6aa2f0FF6b8563EA418ec2558890D6027413699);
-    address payable public WebAppTeam =
+    address payable public HustlerTeam =
         payable(0xBc46A0F68795c90ca2A77168169b806ca440Eb26);
 
     constructor() {}
 
-    function setWebAppTeamWallet(address payable _wallet) external onlyOwner {
-        WebAppTeam = _wallet;
+    function setHustlerTeamWallet(address payable _wallet) external onlyOwner {
+        HustlerTeam = _wallet;
     }
 
     function sendStuckETH() external onlyOwner {
@@ -138,8 +138,8 @@ contract JohnnyReb is Ownable {
         uint wallet2Share = (msg.value * 25) / 100;
         uint wallet3Share = msg.value - wallet1Share - wallet2Share;
 
-        SolidityWizard.transfer(wallet1Share);
-        DrewRoberts.transfer(wallet2Share);
-        WebAppTeam.transfer(wallet3Share);
+        GorillaTeam.transfer(wallet1Share);
+        CutieTeam.transfer(wallet2Share);
+        HustlerTeam.transfer(wallet3Share);
     }
 }
