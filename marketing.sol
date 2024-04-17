@@ -1,3 +1,12 @@
+/**
+ *
+ *
+   InIOSE AI Community Wallet Splitter Contract
+   https://InIOSE.com
+   https://x.com/InIOSEAI
+   https://t.me/InIOSEAIPortal
+ */
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
