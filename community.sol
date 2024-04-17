@@ -112,7 +112,7 @@ abstract contract Ownable is Context {
     }
 }
 
-contract JohnnyReb is Ownable {
+contract Community is Ownable {
     address payable public wallet1 =
         payable(0x90923AD852f67682D9CcD437196a619F7BdF6Ae7);
     address payable public wallet2 =
